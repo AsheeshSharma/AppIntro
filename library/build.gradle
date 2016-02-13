@@ -1,14 +1,13 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
 apply plugin: 'signing'
-apply from: 'maven-push.gradle'
 
 android {
   compileSdkVersion 23
   buildToolsVersion "23.0.2"
 
   defaultConfig {
-    minSdkVersion 11
+    minSdkVersion 10
     targetSdkVersion 23
     versionCode 11
     versionName "3.3.0"
